@@ -1,0 +1,98 @@
+  .one{
+    padding-right: 2rem;
+  }
+  .gradient-custom-2 {
+     /* fallback for old browsers */
+     background: #30cfd0;
+  
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: -webkit-linear-gradient(to left, rgba(48,207,208,0.6), rgba(51,8,103,0.6));
+   
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background: linear-gradient(to left, rgba(48,207,208,0.6), rgba(51,8,103,0.6))
+   }
+  @media (min-width: 768px) {
+    .gradient-form {
+      height: 100vh !important;
+    }
+  }
+  @media (min-width: 769px) {
+    .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+    }
+  }
+
+  .login_heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+.login_form{
+  background-color: black;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+  .titles{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .login_forgotpass{
+   margin: 10px;
+   color: blue;
+   text-decoration: underline;
+  }
+
+.login_modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.login_modal-content h4 {
+  margin-bottom: 20px;
+}
+
+.login_modal-content input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login_modal-content button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.login_modal-content button:hover {
+  background: #0056b3;
+}
+
+.login_modal-content button[type="button"] {
+  background: #ccc;
+  margin-left: 10px;
+}
+
+.login_modal-content button[type="button"]:hover {
+  background: #999;
+}

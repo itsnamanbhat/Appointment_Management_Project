@@ -1,0 +1,28 @@
+.user-details{
+    text-align: center;
+}
+.sidebar_userdetails{
+    /* background-color: white;
+    color: black; */
+   /* padding: 1rem 0.5rem; */
+   /* border-radius: 10px; */
+   font-size: 1.5rem;
+}
+
+.nav-link{
+    color: white;
+    
+    margin: 2px;
+    /* border-radius: 1rem; */
+    text-align: center;
+}
+
+.nav-link:hover{
+   color:  #007bff;
+}
+
+  .nav-link.active {
+    color:  #007bff;  
+  }
+
+  

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.welcome_main{
+    display: flex;
+    flex-direction: column;
+   
+}
+.welcome_navbar{
+    width: 100%;
+    position:fixed;
+    height: 5rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 10;
+}
+.welcome_navbar div{
+    display: flex;
+    gap: 10px;
+}
+
+.welcome_navbar h1{
+    font-size: 2rem;
+}
+
+.welcome_navbtn{
+  width: 8rem;
+}
+.welcome_one{
+    /* background-color: black; */
+    background-image: url("../../Components/Images/welcome_main1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin-top: 5rem;
+    color:white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.welcome_one h1{
+    font-size: 3rem;
+    width: 70%;
+}
+.welcome_one p{
+    color: white;
+    font-size: 1.5rem;
+    text-wrap: wrap;
+    width: 70%;
+}
+.welcome_signupBtn{
+   padding:1rem 1rem;
+    font-size: 1.2rem;
+
+
+}
+.welcome_signup_btn{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+.welcome_sub_p{
+    color: white;
+    font-size: 01rem;
+}
+
+/* second part of welcome page */
+
+.welcome_two{
+  background-image: url("../../Components/Images/welcome1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F7F5F2;  
+    height: 60vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.welcome_first_img{
+    height: 115%;
+    position: relative; 
+       border-radius: 10px;
+       width: 50%;
+}
+.welcome_second_img{
+    width: 20%;
+    margin-left: 1rem;
+    padding-left: 0.5rem;
+    height: 80%;
+    border-radius: 10px;
+
+}
+
+/* third part of the page */
+.welcome_three{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F7F5F2; 
+  width:100%;
+}
+.welcome_three_right{
+  width: 50%;
+}
+.welcome_three_right h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.welcome_span_1{
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    padding: 0.3rem;
+    letter-spacing: 0.2px;
+    
+}
+.welcome_span_2{
+    background: #FF0000;
+background: linear-gradient(to left, #FF0000 0%, #4E62FF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 800;
+padding: 0.3rem;
+letter-spacing: 0.2px;
+}
+
+.welcome_five{
+  margin-top: 4rem;
+}

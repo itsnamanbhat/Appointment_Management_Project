@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.auth{
+  /* margin: 25px; */
+  background-color: #191919;
+  
+}
+
+.auth input,select{
+  background-color: #343434;
+  outline: none;
+  border: none;
+  padding: 12px;
+  color: white ;
+  font-size: 14px;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  
+}
+.auth input:focus {
+  border:none;
+  outline: none;
+  background-color: #343434;
+}
+.auth input::placeholder {
+  color: #888; 
+
+}
+.auth form button{
+  background-color: #0099FF;
+  border-radius: 15px;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.auth-divs{
+  background-color: #333333;
+  border-radius: 40px;
+  padding: 15px;
+
+}
+
+.auth-divs div{
+  position:relative;
+  width: 100%;
+  height: 100%;
+  
+  border-radius: 40px;
+}
+
+
+.auth select {
+  background-color: #343434;
+  color: white;
+  font-size: 14px;
+  padding: 12px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+
+.auth select:focus {
+  background-color: #343434;
+  border: none;
+  outline: none;
+}
+
+
+.auth select option {
+  background-color: #343434;
+  color: white;
+  padding: 12px;
+  font-size: 14px;
+}
+
+
+.auth select option:hover {
+  background-color: #555;
+  color: white;
+}
+
+.profile-image {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #009AFE;
+  color: white;
+  font-size: 25px;
+  font-weight:600;
+  text-transform: uppercase;
+  margin-top: -12px;
+}
+
+
+ .split-background{
+  background: linear-gradient(-60deg, #202531 50%, white 50%);
+ }

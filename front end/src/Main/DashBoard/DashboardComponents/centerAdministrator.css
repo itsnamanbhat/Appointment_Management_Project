@@ -1,0 +1,29 @@
+.centerAdmin_main{
+    margin-top:2rem ;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f4f4f4;
+}
+.dropdown {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.not-approved {
+    background-color: red;
+}
+.approved {
+    background-color: green;
+}
